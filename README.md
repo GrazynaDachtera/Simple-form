@@ -1,12 +1,12 @@
-Project Title
+Project Title:
 Simple form
 
-Description
+Description:
 This is a simple HTML/CSS form which contains basic information (name, surname, date of birth, mobile, gender etc.)
 It contains a "Submit" button.
 
-Dependencies
+Dependencies:
 ex. Windows 10
 
-Authors 
+Authors:
 Grażyna Dachtera
