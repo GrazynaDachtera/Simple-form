@@ -1,4 +1,42 @@
-* {
+div {
     box-sizing: border-box;
+    overflow : auto;
+    flex-direction: column;
 }
+
+body {
+    background-color: gainsboro;
+    margin: 20px;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 250px;
+    float: right;
+}
+
+div {
+    margin: 5px;
+}
+
+.Submit {
+    margin: 5px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+
+
+
+
+
+
 

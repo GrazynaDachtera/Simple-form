@@ -8,62 +8,79 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="registration-form">
-        <h1>Registration form</h1>
+<div class="registration-form">
+    <h1>Registration form</h1>
+</div>
+
+<div class="labels">
+
+    <div class="First-name">
+        First name
+        <label for="First-name"></label>
+        <input id="First-name" type="text" name="first-name" required/>
     </div>
 
-    <div class="labels">
+    <div class="Last-name">
+        Last name
+        <label for="Last-name"></label>
+        <input id="Last-name" type="text" name="last-name" required/>
+    </div>
 
-        <label class="First-name" for="First-name">
-            First name
-            <input id="First-name" type="text" name="first-name" />
-        </label>
+    <div class="Nickname">
+        Nick name
+        <label for="Nickname"></label>
+        <input id="Nickname" type="text" name="nickname" required/>
+    </div>
 
-        <label class="Last-name" for="Last-name">
-            Last name
-            <input id="Last-name" type="text" name="last-name" />
-        </label>
+    <div class="Email">
+        E-mail
+        <label for="Email"></label>
+        <input id="Email" type="text" name="email" required/>
+    </div>
 
-        <label class="Nickname" for="Nickname">
-            Nick name
-            <input id="Nickname" type="text" name="nickname" />
-        </label>
+    <div class="Password">
+        Password
+        <label for="Password"></label>
+        <input id="Password" type="text" name="password" required/>
+    </div>
 
-        <label class="Email" for="Email">
-            e-mail
-            <input id="Email" type="text" name="email" />
-        </label>
+    <div class="Birthdate">
+        Birth date
+        <label for="Birthdate"></label>
+        <input id="Birthdate" type="text" name="birthdate" required/>
+    </div>
 
-        <label class="Password" for="Password">
-            Password
-            <input id="Password" type="text" name="password" />
-        </label>
-
-        <label class="Birthdate" for="Birthdate">
-            Date of birth
-            <input id="Birthdate" type="text" name="birthdate" />
-        </label>
-
-        <div class="Gender">
-            Gender
+    <div class="Gender">
+        Gender :
+        <div class="gender-label">
+        <label>
+            <input type="radio" name="a1" required>
+        </label>- Female<br>
+        <label>
+            <input type="radio" name="a1" required>
+        </label>- Male<br>
+        <label>
+            <input type="radio" name="a1" required>
+        </label>- Others<br>
         </div>
-        <input type="checkbox" name="a1">Female<br>
-        <input type="checkbox" name="a1">Male<br>
-        <input type="checkbox" name="a1">Others<br>
     </div>
 
-        <label class="Mobile" for="Mobile">
-            Mobile phone
-            <input id="Mobile" type="text" name="mobile" />
-        </label>
-
-        <label class="Adress" for="Adress">
-            Adress
-            <input id="Adress" type="text" name="adress" />
-        </label>
-
+    <div class="Mobile">
+        Mobile
+        <label for="Mobile"></label>
+        <input id="Mobile" type="text" name="mobile" required/>
     </div>
 
-    <script src="index.js"></script>
+    <div class="Adress">
+        Adress
+        <label for="Adress"></label>
+        <input id="Adress" type="text" name="adress" required/>
+    </div>
+
+    <div class="Submit">
+        <input type="submit" value="Send" name="submit"/>
+    </div>
+
+</div>
 </body>
 </html>
